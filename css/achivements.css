@@ -1,0 +1,95 @@
+/*Achivements*/
+
+#achievements {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: row;
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.certificate-card:hover {
+  transform: scale(1.02);
+}
+
+.cert-image img {
+  width: 100%;
+  max-width: 450px;
+  height: 340px;
+  display: block;
+}
+
+.cert-image {
+  flex: 1;
+}
+
+.cert-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.cert-details .title {
+  color: #ff0000;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.cert-details .date {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.cert-details .platform {
+  font-weight: bold;
+  color: #f5c518;
+  margin: 5px 0;
+}
+
+.cert-details .description {
+  font-size: 1rem;
+  color: #ccc;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .certificate-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cert-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cert-image,
+  .cert-details {
+    width: 100%;
+  }
+
+  .cert-details {
+    padding: 15px;
+    text-align: center;
+  }
+}
