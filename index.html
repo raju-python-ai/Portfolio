@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Rajasekar Surendran</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/education.css" />
+  <link rel="stylesheet" href="css/internship.css"/>
+  <link rel="stylesheet" href="css/project.css"/>
+  <link rel="stylesheet" href="css/achivements.css"/>
+  <link rel="stylesheet" href="css/menu.css"/>
+  <link rel="stylesheet" href="css/footer.css"/> 
+</head>
+<body>
+  <header class="main-header">
+  <div class="logo">RAJASEKAR SURENDRAN</span></div>
+    <!-- Hamburger -->
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+  <!-- Navigation Links -->
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#" onclick="showSection('home')">Home</a></li>
+    <li><a href="#" onclick="showSection('internships')">Internships</a></li>
+    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+    <li><a href="#" onclick="showSection('achievements')">Achievements</a></li>
+    <li><a href="#" onclick="showSection('education')">Education</a></li>
+    <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+  </ul>
+</header>
+  <main>
+    <section id="home" class="section active">
+      <div class="home-img"><img src="images/image.jpg" alt="Rajasekar Portrait"></div>
+      <div class="home-content">
+        <h1>Hi, I'm <span>Rajasekar Surendran</span></h1>
+        <h3 class="static-roles" id="typing">I'm a Junior Front-End Developer • Software Engineer • Python Developer </h3>
+        <p>Junior Front-End Developer skilled in HTML, CSS, JavaScript, Bootstrap, Python & React. Eager to grow and build impactful web projects.</p>
+        <!-- Social Icons-->
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/rajasekarsurendran/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/raju-python-ai" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+          </a>
+          <a href="https://www.instagram.com/rajuh__surendran/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+          </a>
+          <a href="https://www.geeksforgeeks.org/user/rajasekar_surendran/" target="_blank">
+            <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="GeeksforGeeks">
+          </a>
+        </div>
+
+        <div class="button-group">
+          <button class="btn" data-target="contact">Hire me</button>
+          <a href="RAJASEKAR_SURENDRAN.pdf" download class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Internships-->
+<section id="internships" class="section">
+  <div class="card-section">
+       <!-- Row 1 -->
+  <div class="row">
+  <!-- Internship 1 -->
+  <div class="card">
+    <img src="images/codebind.jpeg" alt="Codebind Logo">
+    <h3>Web Development Internship</h3>
+    <!-- Description 1 -->
+
+    <p class="description ">
+      <span class="highlight">Codebind Technologies (Feb 2024 )</span><br>
+      Worked on developing responsive web applications using HTML, CSS, JavaScript, PHP, and MySQL. 
+      Gained hands-on experience in frontend-backend integration and deployment.
+    </p>
+ <!-- Icons 1 -->
+    <div class="tech-icons">
+      <img src="icons/html.png" alt="HTML">
+      <img src="icons/css.jpeg" alt="CSS">
+      <img src="icons/javascript.png" alt="JavaScript">
+      <img src="icons/mysql.png" alt="MySQL">
+      <img src="icons/php.png" alt="PHP">
+    </div>
+      <!-- Location -->
+  <p class="location">📍 T.Nagar, Tamil Nadu, India</p>
+  <!-- Internship Mode -->
+  <p class="mode">💻 Mode: <span>On-Site</span></p>
+
+  </div>
+  </div>
+  </div>
+<!-- Internship 2 -->
+  <div class="card">
+    <img src="images/ocatnet.jpeg" alt="Project 2">
+    <h3>Python Development Internship</h3>
+    <!-- Description 2 -->
+     <p class="description ">
+  <span class="highlight">Octanet Servive Private ltd (Jan 2025 - Feb 2025)</span><br>
+  Worked on building Python-based applications and automation scripts. 
+  Gained hands-on experience in core Python, file handling, exception management, and real-world use case development.
+</p>
+    <!-- Icons 2 -->
+    <div class="tech-icons">
+      <img src="icons/python.jpeg" alt="Python">
+      
+    </div>
+      <!-- Location -->
+  <p class="location">📍 Bhubaneswar, Odisha, India</p>
+  <!-- Internship Mode -->
+  <p class="mode">💻 Mode: <span style="color: #f39c12;">Remote</span></p>
+ 
+  </div>
+  <!-- Internship 3 -->
+    <!-- Row 2 -->
+    <div class="row">
+  <div class="card">
+    <img src="images/approtech.png" alt="Project 3">
+    <h3>Full Stack Development Internship</h3>
+    <!-- Description 3 -->
+     <p class="description ">
+ <span class="highlight">Approtech R&D Solutions Pvt ltd (July 2025 – Present)</span><br>
+  Worked as a full stack developer using Python (Flask), SQL for backend, and HTML, CSS, JavaScript for frontend.
+  Developed complete web applications with database integration and user authentication.
+</p>
+
+    <!-- Icons 3 -->
+    <div class="tech-icons">
+      <img src="icons/python.jpeg" alt="PYTHON">
+      <img src="icons/sql.jpeg" alt="SQL">
+       <img src="icons/html.png" alt="HTML">
+      <img src="icons/css.jpeg" alt="CSS">
+      <img src="icons/javascript.png" alt="JAVASCRIPT">
+    </div>
+      <!-- Location -->
+  <p class="location">📍 Tambaram, Tamil Nadu, India</p>
+  <!-- Internship Mode -->
+  <p class="mode">💻 Mode: <span>On-Site</span></p>
+    
+  </div>
+<!-- Internship 4 -->
+  <div class="card">
+    <img src="images/unitive.jpeg" alt="Project 3">
+    <h3>Artificial Intelligence Internship</h3>
+    <!-- Description 4 -->
+    <p class="description hidden">
+  <span class="highlight">Unitive Technologies Pvt ltd (July 2025 – Present)</span><br>
+  Explored machine learning concepts and built small AI models using Python and libraries like OpenCV and scikit-learn. 
+  Designed mini projects integrating HTML, CSS, JS for AI-based web demos.
+</p>
+
+    <!-- Icons 4-->
+    <div class="tech-icons">
+      <img src="icons/python.jpeg" alt="PYTHON">
+      <img src="icons/opencv.png" alt="OPENCV">
+       <img src="icons/html.png" alt="HTML">
+      <img src="icons/css.jpeg" alt="CSS">
+      <img src="icons/javascript.png" alt="JAVASCRIPT">
+      
+    </div>
+     <!-- Location -->
+  <p class="location">📍 Thoraipakkam, Tamil Nadu, India</p>
+  <!-- Internship Mode -->
+ <p class="mode">💻 Mode: <span style="color: #f39c12;">Remote</span></p>
+  </div>
+    </div>
+<!-- </div> -->
+</section>
+
+
+    <!-- Skills Section -->
+<section id="skills" class="section">
+    <!-- Front-end -->
+    <div class="skill-category">
+      <h2>Front-end</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML"><p>HTML</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"><p>CSS</p></div>
+        <div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="skill-card"><img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap"><p>Bootstrap</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><p>React</p></div>
+        <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><p>Node.js</p></div>
+      </div>
+    </div>
+  <!-- Back-end -->
+<div class="skill-category">
+  <h2>Back-end</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <p>Python</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C">
+      <p>C</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+      <p>NumPy</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+      <p>Pandas</p>
+    </div>
+  </div>
+</div>
+
+ <!-- Database -->
+<div class="skill-category">
+  <h2>Database</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/4299/4299956.png" alt="SQL">
+      <p>SQL</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+      <p>MySQL</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite">
+      <p>SQLite</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+      <p>MongoDB</p>
+    </div>
+  </div>
+</div>
+
+<!-- Tools -->
+<div class="skill-category">
+  <h2>Tools</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
+      <p>Excel</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+      <p>Git</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+      <p>GitHub</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/microsoft-word-2019--v1.png" alt="Word">
+      <p>MS Word</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://img.icons8.com/color/96/microsoft-powerpoint-2019--v1.png" alt="PowerPoint">
+      <p>MS PowerPoint</p>
+    </div>
+    <div class="skill-card">
+     <img src="https://img.icons8.com/color/96/chatgpt.png" alt="ChatGPT">
+     <p>ChatGPT</p>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+ <!-- Platforms -->
+    <div class="skill-category">
+      <h2>Platforms</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><img src="https://code.visualstudio.com/assets/images/code-stable.png" alt="VS Code"><p>VS Code</p></div>
+        <div class="skill-card"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter"><p>Jupyter Notebook</p></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Project Section -->
+<section id="projects" class="section">
+  <div class="projects-grid">
+    <!-- Project 1: Tourist AI ChatBot -->
+    <div class="project-card">
+      <img src="images/chatbot.png" alt="Tourist AI ChatBot">
+      <div class="project-content">
+        <h3>Tourist AI ChatBot</h3>
+        <p><strong>Tech Used :</strong> Python, HTML, CSS, SQLite</p>
+        <p><strong>Duration :</strong> Jan 2025 - Mar 2025</p>
+        <p>
+         Developed a web-based Tourist AI ChatBot using Python, HTML, CSS, and SQLite. 
+         The chatbot assists users in planning trips by offering intelligent location suggestions, detailed information about tourist attractions, and local travel guidance through a natural language interface. It enhances the travel experience by providing personalized responses based on user queries. 
+         This project highlights my skills in chatbot development, web integration, and handling structured data storage with SQLite.
+        </p>
+        <div class="project-buttons">
+          <a href="https://github.com/raju-python-ai/ToursitBotAI" target="_blank" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2: Calculator -->
+    <div class="project-card">
+      <img src="images/calculator.png" alt="Calculator">
+      <div class="project-content">
+        <h3>Calculator</h3>
+        <p><strong>Tech Used :</strong> HTML & CSS</p>
+        <p><strong>Duration :</strong> Feb 2025</p>
+        <p>
+          This Simple Calculator is a responsive web-based application built using HTML and CSS. It performs basic arithmetic operations like addition, subtraction, multiplication, and division. The clean and user-friendly interface ensures ease of use across all devices.
+           Designed with minimal styling and intuitive layout, this project showcases my foundational front-end development skills and understanding of user interface design principles, making it an ideal component for any beginner-level web portfolio.
+        </p>
+        <div class="project-buttons">
+          <a href=" https://raju-python-ai.github.io/applications/" target="_blank" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+     <!-- Project 3: Video Trailer Popup -->
+    <div class="project-card">
+      <img src="images/trailer.png" alt="Video Trailer Popup">
+      <div class="project-content">
+        <h3>Video Trailer Popup</h3>
+        <p><strong>Tech Used :</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Duration :</strong> Jun 2025</p>
+        <p>
+          Developed an interactive video trailer popup feature using HTML, CSS, and JavaScript. 
+          The custom modal overlays the video trailer seamlessly on the website with smooth animations and a responsive design. This feature enhances user engagement by allowing viewers to preview content without leaving the page. 
+          It demonstrates my skills in DOM manipulation, event handling, and creating polished user experiences through modern front-end techniques.
+        </p>
+        <div class="project-buttons">
+          <a href="https://raju-python-ai.github.io/Video-Trailer-Popup/ " target="_blank" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+      <!-- Project 4: Weather App -->
+    <div class="project-card">
+      <img src="images/weather.png" alt="Weather App">
+      <div class="project-content">
+        <h3>Weather App</h3>
+        <p><strong>Tech Used :</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Duration :</strong> July 2025</p>
+        <p>
+         This weather app, developed using HTML, CSS, and JavaScript, displays weather information using pre-defined static data instead of fetching from an API. The app includes temperature, humidity, weather icons, and time updates. JavaScript controls user interaction, while CSS ensures a clean, responsive design. 
+         It simulates weather changes for different cities or conditions, offering a visually interactive front-end experience without relying on internet connectivity or external data sources.
+        </p>
+        <div class="project-buttons">
+          <a href=" https://raju-python-ai.github.io/Weather-App/" target="_blank" class="btn live">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Achievments Section -->
+  <section id="achievements" class="section">
+  <!-- Card 1 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/Cloud Computing.jpg" alt="Cloud Computing Certificate" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">NPTEL – Cloud Computing</h3>
+      <p class="date">Jul–Apr 2025</p>
+      <p class="platform">NPTEL</p>
+      <p class="description">
+        I successfully completed the NPTEL Cloud Computing course, earning a consolidated score of 60%. 
+        This comprehensive 12-week program, funded by the Ministry of Education, Government of India, covered essential topics such as cloud fundamentals, infrastructure, security, and applications. 
+        Through this course, I gained hands-on experience and in-depth knowledge of cloud computing, enabling me to design and deploy cloud-based solutions effectively. 
+        I'm now equipped with the skills to leverage cloud technology, enhancing my ability to develop scalable, secure, and efficient solutions.
+        This achievement has broadened my technical expertise and opened up new opportunities for innovation and growth.
+        I'm confident in applying my knowledge to real-world projects, driving business value and technological advancement. 
+        The course has been a valuable addition to my academic and professional journey, empowering me to stay ahead in the rapidly evolving tech landscape. 
+        I'm excited to apply my new skills in future endeavors.
+      </p>
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/award.jpg" alt="Academic Excellenace" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Academic Excellenace Award - Second [8.50 CGPA]</h3>
+      <p class="date">Sep 2024 – Feb 2025</p>
+      <p class="platform">Rank Holder</p>
+      <p class="description">
+        Receiving the 2nd prize academic excellence award at my department symposium was a truly proud moment in my academic journey.
+        The event's vibrant atmosphere, complete with floral decorations and a custom backdrop reading "Aignite '25", added to the celebratory feel, making the experience even more memorable. 
+        I'm grateful for the recognition and the opportunity to share this achievement with my peers and mentors, whose guidance and support have been instrumental in my success.
+        This award not only acknowledges my hard work and dedication but also motivates me to continue striving for excellence in my academic pursuits.
+        I'm thankful to be part of a community that values academic achievement and encourages students to push beyond their limits.
+        This recognition will undoubtedly fuel my passion for learning and inspire me to reach even greater heights in my academic and professional endeavors, fostering a sense of pride and accomplishment.
+      </p>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/quiz.png" alt="Symposium" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Technical Quiz</h3>
+      <p class="date">May 2025</p>
+      <p class="platform">First Prize</p>
+      <p class="description">
+        I excelled in the technical quiz at Ponjesly College of Engineering's CIVINITY'25 symposium, securing 1st prize. 
+        Conducted by the Department of Civil Engineering on May 10th, 2025, this event tested my technical knowledge and quick thinking.
+        As a participant, I demonstrated my ability to apply theoretical concepts to practical problems and think critically under pressure. 
+        The symposium provided a platform for me to engage with fellow students and faculty, showcasing my expertise in civil engineering. 
+        Winning the technical quiz was a testament to my hard work and dedication to academic excellence. 
+        I'm proud to have represented my department and college, and I look forward to continuing to push the boundaries of knowledge and innovation in my field. This achievement has further motivated me to pursue excellence in my academic and professional pursuits.
+      </p>
+    </div>
+  </div>
+  <!-- Card 4 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/dumbcharades.jpg" alt="Symposium" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Dumbcharades</h3>
+      <p class="date">May 2025</p>
+      <p class="platform">Second Prize</p>
+      <p class="description">
+    I showcased my creative skills at Nellai College of Engineering's WHIMSICAL'25 symposium, securing 2nd prize in the dumb charades event.
+    Conducted by the Department of Electronics and Communication Engineering on May 7th, 2025, this event tested my ability to think creatively and communicate effectively through non-verbal cues. 
+    I demonstrated my problem-solving skills and teamwork, working with my partner to convey complex ideas and themes without speaking. 
+    The symposium provided a platform for me to engage with fellow students and faculty, and I'm proud to have represented my department and college.
+    Winning the 2nd prize was a testament to my ability to think outside the box and express myself in innovative ways. 
+    This achievement has encouraged me to continue developing my creative skills and exploring new ways to communicate effectively.
+      </p>
+    </div>
+  </div>
+  <!-- Card 5 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/presentation.jpg" alt="Symposium" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Paper Presentation - Blocknimbus</h3>
+      <p class="date">May 2025</p>
+      <p class="platform">Second Prize</p>
+      <p class="description">
+      I showcased my research skills in the Paper Presentation event, presenting on the innovative topic "BLOCKNIMBUS" and securing 2nd prize.
+      Through meticulous research and preparation, I gained in-depth knowledge of the subject matter, enabling me to effectively communicate complex ideas to the audience. 
+      The presentation allowed me to share my insights, receive feedback, and engage in meaningful discussions with peers and experts.
+      Winning the 2nd prize validated my efforts and reinforced my passion for research and innovation. 
+      This experience has enhanced my ability to articulate technical concepts, think critically, and contribute to academic discourse.
+      I'm proud to have represented my department and college, demonstrating my commitment to academic excellence and research.
+      This achievement has motivated me to continue exploring new ideas and advancing knowledge in my field. 
+      The experience was both rewarding and enriching.
+      </p>
+    </div>
+  </div>
+  <!-- Card 6 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/dance.jpg" alt="Symposium" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Dance</h3>
+      <p class="date">May 2025</p>
+      <p class="platform">Third Prize</p>
+      <p class="description">
+      I showcased my passion for dance at Nellai College of Engineering's WHIMSICAL'25 symposium, securing 3rd prize.
+      Conducted by the Department of Electronics and Communication Engineering on May 7th, 2025, this event allowed me to express my creativity and talent through movement.
+      The symposium provided a platform for me to demonstrate my ability to balance academics and extracurricular activities. 
+      Winning the 3rd prize was a testament to my hard work and dedication to perfecting my craft. I'm proud to have represented my department and college, and I'm grateful for the opportunity to have been part of this engaging event. 
+      This achievement has encouraged me to continue exploring my creative side and pursuing excellence in both academics and extracurricular activities. 
+      The experience has been truly enriching and memorable.
+      </p>
+    </div>
+  </div>
+  <!-- Card 7 -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <img src="images/Treasurehunt.png" alt="Symposium" />
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Treasure Hunt</h3>
+      <p class="date">May 2025</p>
+      <p class="platform">First Prize</p>
+      <p class="description">
+        I'm thrilled to share my achievement at Ponjesly College of Engineering's CIVINITY'25 symposium, where I won 1st prize in the Treasure Hunt event. Conducted by the Department of Civil Engineering on May 10th, 2025, this exhilarating experience tested my skills and strategic thinking. 
+        The Treasure Hunt required me to navigate through clues, puzzles, and challenges, pushing me to think creatively and work under pressure. 
+        I'm proud to have emerged as the winner, demonstrating my ability to think critically and solve problems effectively.
+        This experience has boosted my confidence and encouraged me to take on new challenges. 
+        I'm grateful for the opportunity to have participated in CIVINITY'25 and look forward to future events.
+        Winning the 1st prize has been a highlight of my academic journey, and I'm excited to build on this momentum. 
+        This achievement showcases my skills and determination.
+      </p>
+    </div>
+  </div>
+  <!-- Card 9 – Folk Dance (with thumbnail + link) -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <div class="video-thumbnail">
+        <img src="images/folk.png" alt="Folk Dance Thumbnail" />
+        <a href="https://youtu.be/Z8nr2XDg1VQ?si=STOL0cegfHi7m6po" target="_blank" class="watch-overlay">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Inter-Department Cultural Dance – 2023</h3>
+      <p class="date">Sep – 2023</p>
+      <p class="platform" style="color: #ffc107;">Folk Dance</p>
+      <p class="description">
+        I participated in the Inter-Department Cultural Event 2023, held in September, where I showcased my passion for folk dance.
+        Performing to the traditional song "Malaithuli Malaithuli Mannil Sangamam", I immersed myself in the rhythmic beats and energetic movements, bringing the cultural heritage to life on stage.
+        The event provided a platform for me to connect with peers from diverse departments, fostering a sense of community and camaraderie. 
+        Through this experience, I developed my teamwork and communication skills, learning to synchronize my movements with fellow performers.
+        The event was a celebration of our rich cultural diversity, and I'm proud to have been a part of it. 
+        This performance has encouraged me to appreciate and preserve traditional art forms, while also showcasing my creativity and talent.
+        The experience was truly enriching and memorable, allowing me to grow both personally and artistically.
+      </p>
+    </div>
+  </div>
+  <!-- Card 10 – Lazy Dance -->
+  <div class="certificate-card">
+    <div class="cert-image">
+      <div class="video-thumbnail">
+        <img src="images/lazy.png" alt="Lazy Dance Thumbnail" />
+        <a href="https://youtu.be/XeMLuNkYEPo?si=Q6U1ROzshddRGfiU" target="_blank" class="watch-overlay">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="cert-details">
+      <h3 class="title">Inter-Department Cultural Dance – 2024</h3>
+      <p class="date">Sep 2024</p>
+      <p class="platform" style="color: #ffc107;">Lazy Dance</p>
+      <p class="description">
+        I participated in the Inter-Department Cultural Event 2024, held in September, where I showcased my passion for dance. 
+        Performing to a vibrant and catchy song, I immersed myself in the energetic beats and dynamic movements.
+        The event provided a platform for me to connect with peers from diverse departments, fostering a sense of community and camaraderie. 
+        Through this experience, I developed my teamwork and creativity, learning to express myself through dance. 
+        The event was a celebration of our college's diverse talents, and I'm proud to have been a part of it.
+        This performance has encouraged me to appreciate and showcase my artistic side, while also building confidence and stage presence. 
+        The experience was truly enriching and memorable, allowing me to grow both personally and artistically.
+        I had a blast performing and connecting with fellow students.
+      </p>
+    </div>
+  </div>
+</section>
+
+   <!-- Education Section -->
+<section id="education" class="section">
+  <div class="card-container">
+    <!-- Card 1: B.Tech -->
+    <div class="profile-card">
+      <img src="images/project3.jpg" alt="Loyola" class="profile-img">
+      <h3>B.Tech - IT</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>8.50 CGPA<br>Loyola Institute of Technology and Science - Nagercoil</p>
+      <div class="btn-group">
+        <a href="https://maps.app.goo.gl/HVL1w74y74FMwyyn8" target="_blank" class="btn btn-purple">View Map</a>
+        <a href="https://www.lites.edu.in/" target="_blank" class="btn btn-purple">Visit Website</a>
+      </div>
+    </div>
+    <!-- Card 2: B.Tech(Honour)-->
+    <div class="profile-card">
+      <img src="images/project3.jpg" alt="Loyola" class="profile-img">
+      <h3>B.Tech - Honour</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>8.00 CGPA<br>Loyola Institute of Technology and Science - Nagercoil</p>
+      <div class="btn-group">
+        <a href="https://maps.app.goo.gl/HVL1w74y74FMwyyn8" target="_blank" class="btn btn-purple">View Map</a>
+        <a href="https://www.lites.edu.in/" target="_blank" class="btn btn-purple">Visit Website</a>
+      </div>
+    </div>
+    <!-- Card 3: HSC -->
+    <div class="profile-card">
+      <img src="images/project4.jpg" alt="Srinivasa" class="profile-img">
+      <h3>HSC</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>82.5%<br>Sri Srinivasa Matric Hr Sec School - Thanjavur</p>
+      <div class="btn-group">
+        <a href="https://maps.app.goo.gl/HNAZ7Cb8RYXJtGK18" target="_blank" class="btn btn-purple">View Map</a>
+        <a href="https://www.facebook.com/srisrinivasamatrichss/" target="_blank" class="btn btn-purple">Visit Website</a>
+      </div>
+    </div>
+    <!-- Card 4: SSLC -->
+    <div class="profile-card">
+      <img src="images/project4.jpg" alt="Srinivasa" class="profile-img">
+      <h3>SSLC</h3>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>96.4%<br>Sri Srinivasa Matric Hr Sec School - Thanjavur</p>
+      <div class="btn-group">
+        <a href="https://maps.app.goo.gl/HNAZ7Cb8RYXJtGK18" target="_blank" class="btn btn-purple">View Map</a>
+        <a href="https://www.facebook.com/srisrinivasamatrichss/" target="_blank" class="btn btn-purple">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+  <div class="contact-container">
+    <!-- Left: Contact Form -->
+    <div class="contact-form">
+      <h2>Send Us A Message</h2>
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
+        </div>
+        <div class="form-row">
+          <input type="text" placeholder="Phone Number" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+      <div class="form-row">
+  <select required>
+    <option disabled selected>—Please choose an option—</option>
+     <option>College/Academic Query</option>
+    <option>Project Collaboration</option>
+    <option>Internship Opportunity</option>
+    <option>Frontend Development Help</option>
+    <option>Portfolio Feedback</option>
+  </select>
+</div>
+        <textarea rows="5" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <!-- Right: Contact Details -->
+    <div class="contact-info">
+        <h2>Contact Details</h2>
+      <div class="info-box">
+        <i class="fas fa-clock"></i>
+        <div>
+          <h4>Contact Us</h4>
+          <p>No 790, Ayya Pillai Nagar, Airforce Near, Thanjavur - 614303</p>
+        </div>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-phone-alt"></i>
+        <div>
+          <h4>Call</h4>
+          <p>+91 7094717738</p>
+        </div>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Send Email</h4>
+          <p>rajasekar012004@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Map Embed -->
+  <div class="map-container">
+    <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7840.532016280962!2d79.0841710405213!3d10.713954157724004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1752497322158!5m2!1sen!2sin" 
+  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+   referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+</section>
+<!-- Footer Copy Rights -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <i class="fas fa-copyright"></i>
+      2025 <strong>Rajasekar Surendran</strong>. All rights reserved.
+    </div>
+    <div class="footer-right">
+      <a href="https://www.linkedin.com/in/rajasekarsurendran/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="footer-icon">
+      </a>
+      <a href="https://github.com/raju-python-ai" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="footer-icon">
+      </a>
+      <a href="https://www.instagram.com/rajuh__surendran/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="footer-icon">
+      </a>
+      <a href="https://www.geeksforgeeks.org/user/rajasekar_surendran/" target="_blank">
+        <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="GeeksforGeeks" class="footer-icon">
+      </a>
+    </div>
+  </div>
+</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

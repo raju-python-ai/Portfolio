@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #b34747;
+  line-height: 1.2;
+  flex: 1;
+}
+
+.logo span {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.nav-links li a:hover {
+  color: #b34747;
+}
+
+
+ .menu-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+  }
+
+  /* Fix for very small screens (320px) */
+  @media (max-width: 400px) {
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 10;
+  }
+    header h1 {
+      font-size: 1.2rem; /* Shrinks text */
+      text-align: center;
+      margin-right: 2rem; /* Creates space for icon */
+    }
+
+    .menu-toggle {
+      top: 1rem;
+      right: 0.5rem; /* Adjusts icon position */
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0.5rem;
+    }
+  }
+}

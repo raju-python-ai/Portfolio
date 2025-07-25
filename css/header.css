@@ -1,0 +1,71 @@
+/* Base Styles */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  z-index: 999;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Nav links */
+nav {
+ display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping but keeps it tight */
+  gap: 20px;       /* Adjust spacing */
+  margin: 10px 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Menu Icon (only visible on mobile) */
+.menu-icon {
+  display: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 5%;
+  }
+}
